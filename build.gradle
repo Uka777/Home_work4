@@ -1,6 +1,8 @@
 plugins {
-    id 'java-library'
+    id 'java'
 }
+group ='guru.qa'
+version = '1.0'
 
 repositories {
     mavenCentral()
