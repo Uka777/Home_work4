@@ -2,13 +2,12 @@ package guru.qa;
 
 public class TestHomework {
     public static void main(String[] args) {
-        int a = (999999999 + 999999999);
+        int a = (2147483647 + 1);
         double b = 4.5;
         int c = 5;
-        int d = (99999999 + 99999999);
-        int e = (a * d);
-        System.out.println(e);
-        if (e >= 999999999) {
+        byte d = 127;
+                System.out.println(a);
+        if (a > 2147483647) {
             System.out.println("Переполнение");
         }
         System.out.println(b + c);
